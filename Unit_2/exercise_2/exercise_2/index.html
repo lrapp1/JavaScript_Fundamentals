@@ -32,7 +32,19 @@
     </div>
 <script> 
 	window.addEventListener('load', (event) =>{
-			
+			const myFirstName = "Laura";
+            let myAge = 0; 
+            /*assigned to zero because if someone does not input a 
+            value an error could occur*/ 
+            myAge = prompt(`${myFirstName} please enter your age:`);
+            /*Template literal, easier to use when combining String
+            and Variable. Variables use $ at beginning and are enclosed
+            in {}, entire statement enclosed in backtick `` marks*/
+
+            let myFuture = 0;
+            myFuture = (30 + parseInt(myAge)); //parseInt converts String to Integer
+
+            alert(`${myFirstName}, in 30 years from now you will be ${myFuture} **cries**`);
      });
 	 
 </script> 
