@@ -30,7 +30,14 @@
 	
 <script> 
 	window.addEventListener('load', (event) =>{
-			
+			let temperatureF = prompt ("What is the temperature in Fahrenheit?");
+            let convertF2C = ((parseFloat(temperatureF) - 32)*5/9).toFixed(1); 
+            /*Converts temperatureF to a floating point value
+            Which is then subtracted from 32
+            Total is multiplied by five
+            THEN total is divided by 9
+            THEN floating point number is limited to 1 space after decimal*/
+            alert (`The temperature in Celsius is ${convertF2C} degrees :)`)
      });
 	 
 </script> 
