@@ -14,6 +14,6 @@ window.addEventListener('load', (event) =>{
      const taxRate = .05;
      let salesTax = (parseInt(videoGamePrice) * taxRate.toFixed(2));
 
-     document.getElementById('sales').value = '$' + salesTax;
+     document.getElementById('sales').value = '$' + salesTax; //Targets form element ID 'sales' and automatically calculates user input with taxrate
      document.getElementById('total').value = '$' + (parseInt(videoGamePrice) + salesTax);
      });
