@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Working with Forms</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <div id="wrapper">
+        
+      <img src="img/logo1.png" alt="Game Logo" id="logo" class="logo" />
+        
+      <h2 id="headingText"></h2>
+      <p id="gameList"> </p>
+        
+    <form method="post">     
+        <div id="costSection">
+
+            <input type="text" name="sales"  id="sales" readonly /><span class="text">Sales Tax</span>
+            <br />
+            <input type="text" name="total"  id="total" readonly /><span class="text">Total Game Cost</span>
+ 
+        </div>
+      </form> 
+      </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="form.js"></script>
+  </body>
+</html>
