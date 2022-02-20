@@ -1,25 +1,33 @@
 /* CSS Document */
-
-html, body {
-	
-	margin: 0 auto;
-	font-family: sans-serif;
-	font-size: 13px;
-	 }
-	
 h1 {
-	margin: 2px;}
+	margin: 0 auto;
+	padding-top: 12px;
+	font-family: "MedievalSharp", serif;
+	font-size: 60px;
+	color:#ffec96;
+	line-height: 0%;
+}
+
+div#content #directions {
+	font: 16px arial;
+	color:   #810000;
+	line-height: 2;
+}
 	
 button {
-	font-size: 12px;
+	font-family: "MedievalSharp", arial;
+	font-size: 35px;
+	background-color: #fface6;
 	font-weight: bold;
-	padding: 8px; }
+	padding: 8px; 
+}
 	
 div#content {
     width: 700px;
     margin:0 auto;
+	margin-top: 30px;
 	padding: 20px;
-	border: 2px solid rgb(255, 172, 230);
+	border: 2px solid #ff00c9;
 }
 	
 div#controls {
@@ -36,7 +44,8 @@ div#gamespace {
 	padding: 10px;
 	height: 350px;
 	background-color: #FFF;
-	border: 2px solid rgb(255, 172, 230); }
+	border: 2px solid #fface6; 
+}
 
 #gamespace .maidenDeath img {
 	max-width: 120px;
