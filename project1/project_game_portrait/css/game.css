@@ -19,7 +19,7 @@ div#content {
     width: 700px;
     margin:0 auto;
 	padding: 20px;
-	border: 1px solid #ccc ;
+	border: 2px solid rgb(255, 172, 230);
 }
 	
 div#controls {
@@ -36,7 +36,7 @@ div#gamespace {
 	padding: 10px;
 	height: 350px;
 	background-color: #FFF;
-	border: 2px solid #CCC; }
+	border: 2px solid rgb(255, 172, 230); }
 
 #gamespace .maidenDeath img {
 	max-width: 120px;
