@@ -9,9 +9,9 @@ h1 {
 }
 
 div#content #directions {
-	font: 16px arial;
-	color:   #810000;
-	line-height: 2;
+	font: 18px arial;
+	color:   #000;
+	padding-top: 10px;
 }
 	
 button {
@@ -35,19 +35,17 @@ div#content {
 	margin-top: 30px;
 	padding: 20px;
 	border: 2px solid #ff00c9;
+	background-color:   #ff3b3b;
 }
 	
 div#controls {
 	text-align: right; }
 	
-	
 div#controls button {
 	margin-left: 20px; 
 	margin-right: 20px;
 }
-	
 
-	
 div#gamespace {
 	margin: 20px;
 	padding: 10px;
