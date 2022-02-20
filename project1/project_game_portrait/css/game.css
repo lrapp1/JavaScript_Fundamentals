@@ -17,9 +17,16 @@ div#content #directions {
 button {
 	font-family: "MedievalSharp", arial;
 	font-size: 35px;
-	background-color: #fface6;
+	background-color: #ffec96;
 	font-weight: bold;
 	padding: 8px; 
+}
+
+#score {
+	background-color: #c4ffff;
+	padding: 6px;
+	opacity: 50%;
+	font: 18px arial;
 }
 	
 div#content {
@@ -35,7 +42,9 @@ div#controls {
 	
 	
 div#controls button {
-	margin-left: 20px; }
+	margin-left: 20px; 
+	margin-right: 20px;
+}
 	
 
 	
@@ -43,8 +52,7 @@ div#gamespace {
 	margin: 20px;
 	padding: 10px;
 	height: 350px;
-	background-color: #FFF;
-	border: 2px solid #fface6; 
+	border: 10px solid #fface6; 
 }
 
 #gamespace .maidenDeath img {
