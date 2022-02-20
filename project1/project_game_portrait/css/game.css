@@ -37,3 +37,7 @@ div#gamespace {
 	height: 350px;
 	background-color: #FFF;
 	border: 2px solid #CCC; }
+
+#gamespace .maidenDeath img {
+	max-width: 120px;
+}
