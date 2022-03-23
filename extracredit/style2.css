@@ -1,0 +1,62 @@
+html,body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color: #ffffff;
+}
+
+.top-nav {
+    padding: 10px;
+}
+
+.container {
+    background-color: #ffc700;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-top: 60px;
+}
+
+h1 {
+    font-family: 'Arial';
+    text-align: center;
+    color: #d40000;
+    padding: 0;
+    margin: 0;
+}
+
+@font-face {
+    font-family: 'kodaku';
+    src: url('font/kodakku.ttf');
+}
+
+.product1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.product2 {
+    margin-top: 5px;
+    padding: 5px;
+    position: relative;
+    text-align: center;
+    width: 40%;
+}
+
+.slider-nav {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media (max-width: 1400px) {
+
+    .product1 img {
+        width: 50%;
+    }
+
+    .slide-nav {
+        width: auto;
+    }
+}
