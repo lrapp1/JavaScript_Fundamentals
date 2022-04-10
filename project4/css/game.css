@@ -1,0 +1,98 @@
+/* CSS Document */
+h1 {
+	margin-bottom: 0;
+	padding-top: 50px;
+	font-family: "MedievalSharp", serif;
+	font-size: 70px;
+	color:#ffec96;
+	text-shadow: 4px 2px #30281b;
+	text-align: center;
+	margin: 0 auto;
+}
+
+div#content #directions {
+	font: 18px arial;
+	color:   #000;
+	width: 720px;
+	margin-top: -25px;
+	text-align: center;
+}
+	
+button {
+	font-family: "MedievalSharp", arial;
+	font-size: 35px;
+	background-color: #ffec96;
+	font-weight: bold;
+	padding: 10px; 
+}
+
+#score {
+	background-color: #fff4c8;
+	padding: 3px;
+	font: 26px arial;
+	color: #30281b;
+	filter: drop-shadow(0 0 0.60rem #770909);
+}
+
+div#content {
+    width: 720px;
+    margin:0 auto;
+	padding: 30px;
+	border: 3px solid #ff00c9;
+	outline:2px solid #000;
+	background-color:#ff3b3b;
+}
+
+.border #left {
+	max-height: 440px;
+	float: left;
+}
+
+.border #right {
+	max-height: 440px;
+	float: right;
+}
+	
+div#controls {
+	text-align: center; 
+}
+	
+div#controls button {
+	margin-left: 435px; 
+}
+
+.thirtysec {
+	display: none;
+	font: bold 18px "MedievalSharp", arial;
+	color:   #ebe2e2;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	width: 155px;
+	background-color: rgb(27, 0, 0);
+}
+
+div#gamespace {
+	margin: 20px;
+	padding: 10px;
+	height: 400px;
+	border: 5px solid #fface6; 
+	background-image: url('../img/river.jpg');
+	background-size: cover;
+	cursor: url('../img/scythe.cur'), pointer;
+}
+
+body {
+	background-image: url('../img/sky.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+div#maidenDeath img {
+	max-width: 120px;
+	/* margin-left: 220px;
+	margin-right: auto;
+	margin-top: 20px; */
+}
